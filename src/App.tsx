@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
-import AppRouting from './app-routing';
+
+import Layout from './components/layout/layout';
 
 function App() {
   return (
-    <AppRouting />
+    <Layout />
   );
 }
 
